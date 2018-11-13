@@ -6,7 +6,11 @@
 
 # BlueJ files
 *.ctxt
-
+*.iml
+.idea
+out
+target
+.gradle
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
