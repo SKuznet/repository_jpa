@@ -23,7 +23,6 @@ public class AppController {
         return catService.getAllCats();
     }
 
-
     @RequestMapping("/hello")
     public String getHelloPage(Model model) {
         model.addAttribute("hello", "My Spring boot app!");

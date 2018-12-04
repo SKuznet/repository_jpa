@@ -11,7 +11,7 @@ import java.util.List;
 @Service("catService")
 public class CatServiceImpl implements CatService {
     @Autowired
-    CatRepository repository;
+    private CatRepository repository;
 
     @Override
     public List<Cat> getAllCats() {
